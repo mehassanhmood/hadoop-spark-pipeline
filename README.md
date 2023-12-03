@@ -19,4 +19,7 @@ The purpose of this pipeline is to:
 - Ensure you have Java, Hadoop and Spark installed.
 - Execute the Scala script (`pipeline2.scala`) to run the data pipeline.
 - Command to execute: `spark-shell -I "path/to/file.scala"`
+- Alternatively you can also use depending on your environment:
+    1. `saprk-submit`
+    2. `:load "filepath"`
 
